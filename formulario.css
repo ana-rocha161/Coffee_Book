@@ -1,0 +1,18 @@
+.container-form{ 
+    display: flex;
+    align-items: center;
+    padding: 50%;
+  
+}
+.container-form img{
+    width: 10px;
+    right:10px;
+    
+}
+.container-form form{
+width: 50px;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+}

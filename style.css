@@ -1,0 +1,143 @@
+body{
+    background: rgba(203, 206, 255, 0.815);
+
+}
+
+P{ text-align: center;
+background-image: url(../img );
+background-repeat: no-repeat;
+background-size: contain;
+background-position: left-center;
+}
+
+.menu ul li {
+    display: inline;
+}
+a:link{
+    text-decoration: none;
+   padding: 10px;
+    }
+ a:hover{
+    border-bottom: 2px solid rebeccapurple;
+    }
+a:active{
+    color:cornflowerblue;
+    border-bottom: 2px solid rebeccapurple;
+ font-weight: 500;
+}
+#activ{
+    border-bottom: 2px solid rebeccapurple;
+}
+
+/*Comentario em css*/
+
+#banner-principal{
+    width:100%;
+    border-radius: 10%;
+
+}
+
+
+#logo{
+    width: 90px;
+}
+#BAN    {
+    border-radius: 45%;
+}
+
+.emlinha{
+    display: inline-block;
+
+}
+
+#pai{
+    width: 950px;
+    height: 650px;
+    background-color:rgba(240, 128, 128, 0.637);
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+    
+}
+
+.filho{
+    background-color:rgba(240, 165, 136, 0.637);
+
+}
+
+#sr{
+    width: 950px;
+    height: 290px;
+    background-color:rgba(240, 128, 128, 0.637);
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+}
+.rocha{
+    background-color:rgba(240, 165, 136, 0.637);
+}
+
+#ara{
+     width: 1000px;
+    height: 550px;
+    background-color:rgba(240, 128, 128, 0.637);
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+}
+    
+.a{
+    background-color:rgba(240, 165, 136, 0.637);
+}
+#ramon{
+    width: 1000px;
+    height: 500px;
+    background-color:rgba(240, 128, 128, 0.637);
+    padding: 10px 20px 10px 20px;
+    margin: auto;
+}
+.r{
+    background-color:rgba(240, 165, 136, 0.637);
+}
+
+/*cabeçalho para p link*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+
+}
+.menu ul li{
+ display:inline;
+}
+
+#video{
+   background-color: hsla(198, 70%, 77%, 0.993);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+height: 500px;
+border-bottom: 3px solid rebeccapurple;
+}
+#video > .container >.img{
+height: 1015px;
+width: 500px;
+
+}
+.container{
+    background-color: azure;
+ padding: 40px;
+ margin: center;
+ display: flex;
+ justify-content: space-around;
+ border-bottom: 3px solid rgb(79, 235, 209)
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+footer{
+    text-align: center;
+    padding: 15px;
+}
+
